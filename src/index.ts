@@ -1,3 +1,7 @@
 // great job
 
-console.log('hello')
+export const testFunction = () => {
+    console.log('hello')
+}
+
+testFunction()
