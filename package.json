@@ -1,0 +1,32 @@
+{
+  "name": "ts-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for starting a TS app",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "tsc": "tsc",
+    "tsc:watch": "tsc -w --pretty",
+    "tsc:check": "tsc -w --noEmit --pretty"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  },
+  "author": "Daniel J. Harvey",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^23.1.0",
+    "ts-jest": "^22.4.6",
+    "ts-node": "^6.1.0",
+    "typescript": "^2.9.1"
+  }
+}
