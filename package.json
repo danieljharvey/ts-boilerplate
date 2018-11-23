@@ -26,6 +26,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/jest": "^23.0.0",
+    "fp-ts": "^1.11.1",
     "jest": "^23.1.0",
     "ts-jest": "^22.4.6",
     "ts-node": "^6.1.0",
